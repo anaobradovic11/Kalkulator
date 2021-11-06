@@ -36,7 +36,11 @@ public class Main {
 			 substraction(x, y);
 			
 		 }
-		
+		 if(pars[1].equals("*"))
+		 {
+			multiplication(x, y);
+			
+		 }
 		 
 		 
 			}while(!s.equals("kraj"));
@@ -54,7 +58,11 @@ public class Main {
 			System.out.println(x-y);
 		}
 		
-
+	
+		public static void multiplication(int x, int y)
+		{
+			System.out.println(x*y);
+		}
 	
 
 }
