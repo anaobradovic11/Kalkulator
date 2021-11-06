@@ -38,7 +38,9 @@ public class Main {
 		 }
 		 if(pars[1].equals("*"))
 		 {
-			 //TODO
+
+			multiplication(x, y);
+
 			
 		 }
 		 
@@ -58,7 +60,11 @@ public class Main {
 			System.out.println(x-y);
 		}
 		
-
+	
+		public static void multiplication(int x, int y)
+		{
+			System.out.println(x*y);
+		}
 	
 
 }
